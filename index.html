@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Rajdhani&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="info-contain">
+        <header>
+          <a class="webLogo" href="#">
+            <img class="logo" src="./images/logo.svg" alt="logo" />
+          </a>
+        </header>
+
+        <section class="hero"></section>
+
+        <div class="texts-container">
+          <div class="text-contain">
+            <h1 class="title-page">WE'RE</h1>
+            <h1 class="title-page">COMING</h1>
+            <h1 class="title-page">SOON</h1>
+          </div>
+
+          <p class="text">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+
+          <form action="" class="input-container">
+            <input
+              class="input"
+              type="email"
+              placeholder="Email Address"
+              id="mail"
+            />
+            <img class="error-img" src="./images/icon-error.svg" alt="" />
+            <button onclick="validateEmail()" id="send-button" type="submit">
+              <img src="./images/icon-arrow.svg" alt="" />
+            </button>
+            <p id="alert" class="alert-hidden"></p>
+          </form>
+        </div>
+      </div>
+    </main>
+    <section class="hero1"></section>
+  </body>
+</html>
